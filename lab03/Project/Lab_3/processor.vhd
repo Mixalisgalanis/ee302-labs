@@ -1,0 +1,147 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    18:55:40 03/06/2019 
+-- Design Name: 
+-- Module Name:    processor - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+entity processor is
+    Port( 
+			clk : in  STD_LOGIC;
+         reset : in  STD_LOGIC; 
+			inst_addr : out std_logic_vector(10 downto 0);         
+			inst_dout : in std_logic_vector(31 downto 0);         
+			data_we     : out std_logic;         
+			data_addr     : out std_logic_vector(10 downto 0);         
+			data_din     : out std_logic_vector(31 downto 0);         
+			data_dout  : in std_logic_vector(31 downto 0)); 
+end processor;
+
+
+architecture Behavioral of processor is
+
+component CONTROL is
+    Port ( instructions : in  STD_LOGIC_VECTOR (31 downto 0);
+			  zero : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           reset : in  STD_LOGIC;
+           ALUctr : out  STD_LOGIC_VECTOR(3 downto 0);
+           ALUsrc : out  STD_LOGIC;
+           Extop : out  STD_LOGIC;
+           MemToReg : out  STD_LOGIC;
+           Rb_RF_sel : out  STD_LOGIC;
+           PC_LdEn : out  STD_LOGIC;
+           PC_sel : out  STD_LOGIC;
+           RF_WrEn : out  STD_LOGIC;
+			  ByteEnable : out STD_LOGIC;
+			  MemWr : out STD_LOGIC;
+			  shift :out std_logic;
+			  shift16: out std_logic
+          );
+end component;
+
+component Datapath is
+    Port( 
+			clk : in  STD_LOGIC;
+			reset : in  STD_LOGIC;
+			--Memory input signals 
+			instructions : in std_logic_vector(31 downto 0);  
+			instr_address :out std_logic_vector(10 downto 0);
+			data_dout : in std_logic_vector(31 downto 0);  
+			data_addr : out std_logic_vector(10 downto 0); 
+			data_din  : out std_logic_vector(31 downto 0); 
+			--contol unit signals
+			CU_ALUctr : in std_logic_vector(3 downto 0);
+			CU_ALUSrc : in STD_LOGIC;
+			CU_RF_WrEn : in STD_LOGIC;
+			CU_MemtoReg : in STD_LOGIC;
+			CU_PC_LdEn : in STD_LOGIC;
+			CU_PC_sel : in STD_LOGIC;
+			CU_RF_B_sel : in STD_LOGIC;
+			CU_Exten : in STD_LOGIC;
+			CU_shift : in STD_LOGIC;
+			CU_ByteEnable : in STD_LOGIC;
+			zero :out STD_LOGIC;
+			shift16 : in std_logic
+		  );
+end component;
+
+signal s_zero : std_logic;
+signal s_ALUctr : std_logic_vector(3 downto 0);
+signal s_ALUsrc : std_logic;
+signal s_extop : std_logic;
+signal s_MemToReg : std_logic;
+signal s_Rb_RF_sel : std_logic;
+signal s_PC_LdEn : std_logic;
+signal s_PC_sel : std_logic;
+signal s_RF_WrEn : std_logic;
+signal s_shift : std_logic;
+signal s_shift16 : std_logic;
+signal s_ByteEnable : std_logic;
+
+begin
+
+DTPATH: Datapath 
+   PORT MAP( 
+				clk   => clk,
+				reset => reset,
+				--Memory input signals 
+				instructions => inst_dout, 
+				instr_address => inst_addr,
+				data_dout => data_dout,  
+				data_addr => data_addr,
+				data_din  => data_din,
+				--contol unit signals
+				CU_ALUctr => s_ALUctr,
+				CU_ALUSrc => s_ALUsrc,
+				CU_RF_WrEn => s_RF_WrEn,
+				CU_MemtoReg => s_MemToReg,
+				CU_PC_LdEn => s_PC_LdEn,
+				CU_PC_sel => s_PC_sel, 
+				CU_RF_B_sel => s_Rb_RF_sel,
+				CU_Exten => s_extop,
+				CU_shift => s_shift,
+				CU_ByteEnable => s_ByteEnable,
+				zero => s_zero,
+				shift16 => s_shift16
+				);
+
+				
+CNTRL:  CONTROL 
+   PORT MAP( 
+				instructions =>  inst_dout,
+				zero => s_zero,
+				clk => clk,
+				reset => reset,
+				ALUctr => s_ALUctr,
+				ALUsrc => s_ALUsrc,
+				Extop => s_extop,
+				MemToReg => s_MemToReg,
+				Rb_RF_sel => s_Rb_RF_sel,
+				PC_LdEn =>	s_PC_LdEn,
+				PC_sel =>	s_PC_sel,
+				RF_WrEn =>	s_RF_WrEn,
+				ByteEnable => s_ByteEnable,
+				MemWr =>	data_we,
+				shift => s_shift,
+				shift16 => s_shift16
+			  );
+			  
+end Behavioral;
+

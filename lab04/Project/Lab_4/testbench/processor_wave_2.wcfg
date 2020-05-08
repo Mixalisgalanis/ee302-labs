@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/github/lab_4/Lab_4/Top_module_Test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dt_array_pkg" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="top_module_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/top_module_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="group75" type="group">
+      <obj_property name="label">control signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/pc_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pc_sel</obj_property>
+         <obj_property name="ObjectShortName">pc_sel</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/pc_lden" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pc_lden</obj_property>
+         <obj_property name="ObjectShortName">pc_lden</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/rb_rf_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rb_rf_sel</obj_property>
+         <obj_property name="ObjectShortName">rb_rf_sel</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/memtoreg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">memtoreg</obj_property>
+         <obj_property name="ObjectShortName">memtoreg</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/extop" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">extop</obj_property>
+         <obj_property name="ObjectShortName">extop</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/alusrc" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">alusrc</obj_property>
+         <obj_property name="ObjectShortName">alusrc</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/rf_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/aluctr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">aluctr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">aluctr[3:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/memwr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">memwr</obj_property>
+         <obj_property name="ObjectShortName">memwr</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/shift" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">shift</obj_property>
+         <obj_property name="ObjectShortName">shift</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/byteenable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">byteenable</obj_property>
+         <obj_property name="ObjectShortName">byteenable</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/shift16" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">shift16</obj_property>
+         <obj_property name="ObjectShortName">shift16</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group76" type="group">
+      <obj_property name="label">commands</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/li" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">li</obj_property>
+         <obj_property name="ObjectShortName">li</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/lui" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lui</obj_property>
+         <obj_property name="ObjectShortName">lui</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/addi" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">addi</obj_property>
+         <obj_property name="ObjectShortName">addi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/nandi" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">nandi</obj_property>
+         <obj_property name="ObjectShortName">nandi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/ori" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ori</obj_property>
+         <obj_property name="ObjectShortName">ori</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/b" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">b</obj_property>
+         <obj_property name="ObjectShortName">b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/beq" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">beq</obj_property>
+         <obj_property name="ObjectShortName">beq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/bne" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">bne</obj_property>
+         <obj_property name="ObjectShortName">bne</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/lb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lb</obj_property>
+         <obj_property name="ObjectShortName">lb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/sb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sb</obj_property>
+         <obj_property name="ObjectShortName">sb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/lw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lw</obj_property>
+         <obj_property name="ObjectShortName">lw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/sw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sw</obj_property>
+         <obj_property name="ObjectShortName">sw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/rtype" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rtype</obj_property>
+         <obj_property name="ObjectShortName">rtype</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/RM/inst_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_addr[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">register_dout[3]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">register_dout[4]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">register_dout[5]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">register_dout[10]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[16]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">register_dout[16]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/RM/ram[1028]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1028]</obj_property>
+      <obj_property name="ObjectShortName">ram[1028]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group256" type="group">
+      <obj_property name="label">Ram Instructions</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_module_test/uut/RM/ram[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">ram[0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/RM/ram[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">ram[1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/RM/ram[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">ram[2]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group144" type="group">
+      <obj_property name="label">Rest Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[31]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[30]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[29]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[28]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[27]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[26]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[25]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[24]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[23]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[22]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[21]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[19]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[18]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[14]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[13]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[12]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[11]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[9]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[8]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[7]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[6]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[2]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/DECSTG/RF/register_dout[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">register_dout[0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/s_rb_rf_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s_rb_rf_sel</obj_property>
+      <obj_property name="ObjectShortName">s_rb_rf_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/s_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/DTPATH/cu_pc_lden_cond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cu_pc_lden_cond</obj_property>
+      <obj_property name="ObjectShortName">cu_pc_lden_cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/beq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">beq</obj_property>
+      <obj_property name="ObjectShortName">beq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/bne" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bne</obj_property>
+      <obj_property name="ObjectShortName">bne</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/op" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">op</obj_property>
+      <obj_property name="ObjectShortName">op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/curs" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">curs</obj_property>
+      <obj_property name="ObjectShortName">curs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/s_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s_zero</obj_property>
+      <obj_property name="ObjectShortName">s_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/pc_lden_cond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden_cond</obj_property>
+      <obj_property name="ObjectShortName">pc_lden_cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_test/uut/PROC/CNTRL/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+</wave_config>

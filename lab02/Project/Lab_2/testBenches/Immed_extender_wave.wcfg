@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/github/computerorganization-lab02-final/Lab_2/Immed_extender_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="immed_extender_test" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/immed_extender_test/uut/imm16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm16[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/immed_extender_test/imm32" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4" type="group">
+      <obj_property name="label">commands</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/immed_extender_test/uut/extension" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">extension</obj_property>
+      <obj_property name="ObjectShortName">extension</obj_property>
+   </wvobject>
+   <wvobject fp_name="/immed_extender_test/uut/shifting" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">shifting</obj_property>
+      <obj_property name="ObjectShortName">shifting</obj_property>
+   </wvobject>
+</wave_config>

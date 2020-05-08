@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/github/computerorganization-lab02-final/Lab_2/DECSTAGE_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="decstage_test" />
+            <top_module name="dt_array_pkg" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/decstage_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decstage_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decstage_test/instr" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      <obj_property name="label">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus137" type="vbus" db_ref_id="1">
+      <obj_property name="label">op</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/instr[30]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">instr[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[29]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">instr[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[28]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">instr[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[27]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">instr[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[31]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">instr[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[26]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">instr[26]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus138" type="vbus" db_ref_id="1">
+      <obj_property name="label">rs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/instr[25]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">instr[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[24]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">instr[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[23]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">instr[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[22]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">instr[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[21]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">instr[21]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus140" type="vbus" db_ref_id="1">
+      <obj_property name="label">rd</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/instr[20]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">instr[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[19]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">instr[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[18]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">instr[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[17]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">instr[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[16]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">instr[16]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus141" type="vbus" db_ref_id="1">
+      <obj_property name="label">rt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/instr[15]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">instr[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[14]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">instr[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[13]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">instr[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[12]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">instr[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[11]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">instr[11]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus142" type="vbus" db_ref_id="1">
+      <obj_property name="label">Not Used</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/instr[10]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">instr[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[9]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">instr[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[8]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">instr[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[7]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">instr[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[6]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">instr[6]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus139" type="vbus" db_ref_id="1">
+      <obj_property name="label">Func</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/instr[5]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">instr[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[4]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">instr[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">instr[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">instr[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">instr[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/instr[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">instr[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/decstage_test/rf_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decstage_test/rf_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decstage_test/uut/ImmEX/imm32" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">decstage</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/rf_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/alu_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/mem_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/rf_wrdata_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+         <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/rf_b_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_b_sel</obj_property>
+         <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/extension" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">extension</obj_property>
+         <obj_property name="ObjectShortName">extension</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/shifting" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">shifting</obj_property>
+         <obj_property name="ObjectShortName">shifting</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/immed" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">immed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group16" type="group">
+      <obj_property name="label">register file</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/uut/RF/MUX_1/reg[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">reg[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/RF/MUX_1/reg[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">reg[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/RF/MUX_1/reg[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">reg[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/RF/MUX_1/reg[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">reg[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/RF/MUX_1/reg[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">reg[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/RF/MUX_1/reg[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">reg[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">immEX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/decstage_test/uut/ImmEX/extension" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">extension</obj_property>
+         <obj_property name="ObjectShortName">extension</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/ImmEX/shifting" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">shifting</obj_property>
+         <obj_property name="ObjectShortName">shifting</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/ImmEX/imm16" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">imm16[15:0]</obj_property>
+         <obj_property name="ObjectShortName">imm16[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/decstage_test/uut/ImmEX/imm32" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">imm32[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm32[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

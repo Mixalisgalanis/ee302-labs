@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/github/computerorganization-lab02-final/Lab_2/Memory_T_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="memory_t_test" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/memory_t_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/data_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/cu_pc_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cu_pc_sel</obj_property>
+      <obj_property name="ObjectShortName">cu_pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/cu_pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cu_pc_lden</obj_property>
+      <obj_property name="ObjectShortName">cu_pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/s_alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/s_data_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_data_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/data_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group10" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_t_test/uut/RM/inst_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">inst_addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_addr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/RM/inst_dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">inst_dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_dout[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/RM/data_we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_we</obj_property>
+         <obj_property name="ObjectShortName">data_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/RM/data_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">data_addr[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/RM/data_din" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/RM/data_dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_dout[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/RM/ram" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ram[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">ram[2047:0]</obj_property>
+         <obj_property name="label">ram[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/RM/ram" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ram[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">ram[2047:0]</obj_property>
+         <obj_property name="label">ram[698]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_t_test/uut/MEM/alu_mem_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">alu_mem_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_mem_addr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/MEM/alu_mem_newaddr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">alu_mem_newaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_mem_newaddr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">IFSTAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_t_test/uut/IN_FETCH/pc_immed" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pc_immed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_immed[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/IN_FETCH/pc_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pc_sel</obj_property>
+         <obj_property name="ObjectShortName">pc_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/IN_FETCH/pc_lden" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pc_lden</obj_property>
+         <obj_property name="ObjectShortName">pc_lden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/IN_FETCH/s_mux_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_mux_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_mux_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/IN_FETCH/s_incrementor_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_incrementor_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_incrementor_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_t_test/uut/IN_FETCH/s_adder_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_adder_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_adder_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/memory_t_test/uut/IN_FETCH/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+</wave_config>
